@@ -1,0 +1,44 @@
+.bg-img {
+  background-image: url(../img/background.jpg);
+  opacity: 0.4;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+  opacity: 1;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+.images {
+  padding-top: 150px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 600px;
+}
+
+.imagesPadding{ 
+    padding-right: 150px;
+}
+
+.imagesGlasses{ 
+    transform: translate(0px,-480px);
+}
+
+.glassAnimation{ 
+  animation: glassAnimation 0.5s;
+}
+
+@keyframes glassAnimation {
+   from { opacity: 0;}
+   to{opacity: 1;}
+  
+}
+
+
